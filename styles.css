@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #FFEAAD;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #FFEAAD; 
+  color: white;
+  padding: 10px;
+}
+
+.logo img {
+  width: 70px; 
+  height: auto;
+}
+
+.personal-info {
+  text-align: center;
+  padding-top: 20px; 
+}
+
+.personal-info img {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 70%; 
+}
+
+nav {
+  background-color: black; 
+  width: 100%; 
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; 
+}
+
+nav li {
+  margin-right: 20px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.content {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+
+.download-button,
+.view-video-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; 
+  text-decoration: none; 
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+.view-video-button:hover {
+  background-color: #ff0000;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(0, 0, 0); 
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers horizontally */
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.icon-container {
+  margin-right: 10px; /* Adjust spacing between icons if needed */
+}
+
+.social-icons a {
+  margin-right: 10px; /* Adjust spacing between icons if needed */
+  color: black; /* Or specify the color you prefer for icons */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: hsl(0, 98%, 48%); /* Change color on hover */
+}
+
+
+footer {
+  background-color: hwb(0 0% 100%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
